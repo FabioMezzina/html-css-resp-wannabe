@@ -81,6 +81,8 @@ img {
 
 /* RESPONSIVE MEDIA QUERY */
 /* 420px breakpoint */
+
+/* 420px to 767px breakpoint */
 @media screen and (max-width: 419px) {
   .row {
     width: 100%;
@@ -173,7 +175,7 @@ img {
 }
 
 /* 768px to 1023px breakpoint*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .row {
     width: 100%;
     padding: 0 20px;
