@@ -84,6 +84,7 @@ img {
 @media screen and (max-width: 419px) {
   .row {
     width: 100%;
+    padding: 0 20px;
     margin-top: 30px;
   }
 
@@ -126,6 +127,7 @@ img {
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .row {
     width: 100%;
+    padding: 0 20px;
     margin-top: 30px;
   }
 
@@ -174,6 +176,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .row {
     width: 100%;
+    padding: 0 20px;
     margin-top: 30px;
   }
 
