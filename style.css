@@ -76,6 +76,12 @@ img {
 /* RESPONSIVE MEDIA QUERY */
 /* 420px breakpoint */
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
     width: 100%;
     margin-top: 30px;
@@ -83,12 +89,12 @@ img {
 
   img {
   max-width: 100px;
-  max-height: 150px;
+  max-height: 100px;
   }
 
   hr {
     width: 80%;
-    margin-top: 30px;
+    margin: 30px auto;
   }
 
   #lezioni .row img {
@@ -107,7 +113,6 @@ img {
 
   #why img {
     height: auto;
-    max-width: 40px;
   }
 
   #why .row>.first,
@@ -117,8 +122,68 @@ img {
   }
 }
 
+/* 420px to 767px breakpoint */
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  img {
+  max-width: 150px;
+  max-height: 150px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 41%;
+    margin: 40px 4%;
+  }
+
+  #lezioni .row img {
+    max-width: 300px;
+  }
+
+  #lezioni {
+    border-bottom: 2px solid gray;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    margin: 80px auto;
+    width: 90%;
+  }
+
+  #steps.container,
+  #why.container {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+  }
+}
+
 /* 768px to 1023px breakpoint*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
     width: 100%;
     margin-top: 30px;
@@ -158,6 +223,4 @@ img {
   hr {
     display: none;
   }
-
-
 }
