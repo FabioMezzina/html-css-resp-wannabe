@@ -82,7 +82,7 @@ img {
 /* RESPONSIVE MEDIA QUERY */
 /* 420px breakpoint */
 
-/* 420px to 767px breakpoint */
+/* 420px breakpoint */
 @media screen and (max-width: 419px) {
   .row {
     width: 100%;
