@@ -174,10 +174,11 @@ img {
   }
 }
 
-/* 768px to 1023px breakpoint*/
+/* 768px breakpoint*/
 @media screen and (min-width: 768px) {
   .row {
     width: 100%;
+    max-width: 1024px;
     padding: 0 20px;
     margin-top: 30px;
   }
