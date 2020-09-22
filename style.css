@@ -91,17 +91,12 @@ img {
   }
 
   img {
-  max-width: 100px;
-  max-height: 100px;
+  height: 100px;
   }
 
   hr {
     width: 80%;
     margin: 30px auto;
-  }
-
-  #lezioni .row img {
-    height: auto;
   }
 
   #lezioni .row > .left,
@@ -112,10 +107,6 @@ img {
     float: none;
     margin: 30px 10px;
     width: 90%;
-  }
-
-  #why img {
-    height: auto;
   }
 
   #why .row>.first,
